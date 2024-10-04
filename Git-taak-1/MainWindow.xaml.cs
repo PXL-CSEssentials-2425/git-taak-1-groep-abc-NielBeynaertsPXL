@@ -20,5 +20,45 @@ namespace Git_taak_1
         {
             InitializeComponent();
         }
+
+        private void redImage_MouseEnter(object sender, MouseEventArgs e)
+        {
+           mainWindow.Background = Brushes.Red;
+        }
+
+        private void redImage_MouseLeave(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = Brushes.LightGray;
+        }
+
+        private void yellowImage_MouseEnter(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = Brushes.Yellow;
+        }
+
+        private void yellowImage_MouseLeave(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = Brushes.LightGray;
+        }
+
+        private void greenImage_MouseEnter(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = Brushes.Green;
+        }
+
+        private void greenImage_MouseLeave(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = Brushes.LightGray;
+        }
+
+        private void blueImage_MouseEnter(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = Brushes.Blue;
+        }
+
+        private void blueImage_MouseLeave(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = Brushes.LightGray;
+        }
     }
 }

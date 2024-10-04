@@ -5,9 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Git_taak_1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" Background="LightGray">
+        Title="MainWindow" Height="450" Width="800" Background="LightGray"
+        x:Name="mainWindow">
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="100,65,0,0" TextWrapping="Wrap" Text="Kleurenpsychologie" VerticalAlignment="Top"/>
         <Image Source="/PXL.png" Margin="645,19,21,307" />
+        <Image Name="redImage" HorizontalAlignment="Left" Height="72" Margin="104,128,0,0" VerticalAlignment="Top" Width="100" Source="/Rood.png" MouseEnter="redImage_MouseEnter" MouseLeave="redImage_MouseLeave"/>
+        <Image Name="yellowImage" HorizontalAlignment="Left" Height="72" Margin="279,128,0,0" VerticalAlignment="Top" Width="100" Source="/Geel.png" MouseEnter="yellowImage_MouseEnter" MouseLeave="yellowImage_MouseLeave"/>
+        <Image Name="greenImage" HorizontalAlignment="Left" Height="72" Margin="104,217,0,0" VerticalAlignment="Top" Width="100" Source="/Groen.png" MouseEnter="greenImage_MouseEnter" MouseLeave="greenImage_MouseLeave"/>
+        <Image Name="blueImage" HorizontalAlignment="Left" Height="72" Margin="279,217,0,0" VerticalAlignment="Top" Width="100" Source="/Blauw.png" MouseEnter="blueImage_MouseEnter" MouseLeave="blueImage_MouseLeave"/>
     </Grid>
 </Window>
