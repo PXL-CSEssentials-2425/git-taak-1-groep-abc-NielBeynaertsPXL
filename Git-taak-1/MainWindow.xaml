@@ -14,7 +14,9 @@
         <Image Name="yellowImage" HorizontalAlignment="Left" Height="72" Margin="279,128,0,0" VerticalAlignment="Top" Width="100" Source="/Geel.png" MouseEnter="yellowImage_MouseEnter" MouseLeave="yellowImage_MouseLeave" MouseDown="yellowImage_MouseDown"/>
         <Image Name="greenImage" HorizontalAlignment="Left" Height="72" Margin="104,217,0,0" VerticalAlignment="Top" Width="100" Source="/Groen.png" MouseEnter="greenImage_MouseEnter" MouseLeave="greenImage_MouseLeave" MouseDown="greenImage_MouseDown"/>
         <Image Name="blueImage" HorizontalAlignment="Left" Height="72" Margin="279,217,0,0" VerticalAlignment="Top" Width="100" Source="/Blauw.png" MouseEnter="blueImage_MouseEnter" MouseLeave="blueImage_MouseLeave" MouseDown="blueImage_MouseDown"/>
-        <TextBlock HorizontalAlignment="Left" Margin="104,323,0,0" TextWrapping="Wrap" Text="Kleurcode" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="104,323,0,0" TextWrapping="Wrap" Text="Kleurcode:" VerticalAlignment="Top"/>
         <TextBox x:Name="colorCodeTextBox" HorizontalAlignment="Left" Margin="189,323,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="190"/>
+        <TextBlock HorizontalAlignment="Left" Margin="104,359,0,0" TextWrapping="Wrap" Text="Informatie:" VerticalAlignment="Top"/>
+        <TextBox x:Name="colorInfoTextBox" HorizontalAlignment="Left" Margin="189,359,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="190"/>
     </Grid>
 </Window>
